@@ -34,7 +34,8 @@ func main() {
   number, err := strconv.Atoi(strings.TrimSpace(text))
   if err != nil {
     fmt.Println("This is not a number...")
+  } else {
+    fmt.Println(fizzbuzzrazz(number))
   }
-  fmt.Println(fizzbuzzrazz(number))
   main()
 }
